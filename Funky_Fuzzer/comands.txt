@@ -1,0 +1,14 @@
+gedit /home/mike/.wapiti/scans/localhost.xml -> para encontrar o ficheiro do scan do wapiti
+
+sudo service apache2 restart
+
+vi /var/www/html/phpinfo.php
+
+wapiti http://localhost/mutillidae -k /home/mike/.wapiti/scans/localhost.xml
+
+wapiti http://localhost/mutillidae -m "-all,exec,file,permanentxss,sql,xss" -i /home/mike/.wapiti/scans/localhost.xml
+
+grep -e '[<]resouce\|[<]\/resouce\|[<]headers\|[<]\/headers\|[<]browsed\|[<]\/browsed\|[<]root[>]\|[<]\/root[>]\|[<]referer\|[<]input\|header\s.*Location\|get_params[>]\|[<]\/get_params\|[<]post_params[>]\|[<]\/post_params\|[<]file_params[>]\|[<]\/file_params' localhost.xml > out.xml
+
+To use z3:
+- javac -cp '.:com.microsoft.z3.jar'

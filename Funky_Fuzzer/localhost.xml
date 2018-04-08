@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <root>
+        <rootURL>http://localhost/phpinfo.php</rootURL>
+        <toBrowse/>
+        <browsed>
+            <resouce encoding="UTF-8" method="GET" path="http://localhost/phpinfo.php">
+                <referer></referer>
+                <get_params/>
+                <post_params/>
+                <file_params/>
+                <headers>
+                    <header name="Content-Length" value="147"/>
+                    <header name="Content-Encoding" value="gzip"/>
+                    <header name="status_code" value="200"/>
+                    <header name="Vary" value="Accept-Encoding"/>
+                    <header name="Keep-Alive" value="timeout=5, max=100"/>
+                    <header name="Server" value="Apache/2.4.18 (Ubuntu)"/>
+                    <header name="Connection" value="Keep-Alive"/>
+                    <header name="Date" value="Sun, 21 Jan 2018 18:16:04 GMT"/>
+                    <header name="Content-Type" value="text/html; charset=UTF-8"/>
+                </headers>
+            </resouce>
+            <resouce encoding="ascii" method="GET" path="http://localhost/phpinfo.php">
+                <referer>http://localhost/phpinfo.php</referer>
+                <get_params>
+                    <input name="age" value="default"/>
+                    <input name="name" value="default"/>
+                </get_params>
+                <post_params/>
+                <file_params/>
+                <headers>
+                    <header name="Content-Length" value="173"/>
+                    <header name="Content-Encoding" value="gzip"/>
+                    <header name="status_code" value="200"/>
+                    <header name="Vary" value="Accept-Encoding"/>
+                    <header name="Keep-Alive" value="timeout=5, max=99"/>
+                    <header name="Server" value="Apache/2.4.18 (Ubuntu)"/>
+                    <header name="Connection" value="Keep-Alive"/>
+                    <header name="Date" value="Sun, 21 Jan 2018 18:16:04 GMT"/>
+                    <header name="Content-Type" value="text/html; charset=UTF-8"/>
+                </headers>
+            </resouce>
+        </browsed>
+    </root>
